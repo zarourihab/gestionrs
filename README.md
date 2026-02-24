@@ -1,3 +1,4 @@
+TP 3 : Lier Salle–Réservation–Utilisateur, ajouter Équipement (ManyToMany), expérimenter cascade et suppression orpheline
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-23 210336" src="https://github.com/user-attachments/assets/7057164a-6624-48a9-bbbc-0fa72efa5d4c" />
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-23 210353" src="https://github.com/user-attachments/assets/267d0995-c5db-4fa8-8cab-aa9d92f88a04" />
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-23 210402" src="https://github.com/user-attachments/assets/618ef36d-bec5-4506-a8d4-0234a2d7dbf3" />
@@ -13,3 +14,5 @@
 
 
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-23 210533" src="https://github.com/user-attachments/assets/154dec0a-b316-4e9c-9712-a82bd7ba7e5c" />
+diagramme de classe
+<img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-24 213918" src="https://github.com/user-attachments/assets/0d485e3f-9870-4d5f-9f6e-70c5b37ddd69" />
