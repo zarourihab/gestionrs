@@ -1,4 +1,33 @@
 TP 3 : Lier Salle–Réservation–Utilisateur, ajouter Équipement (ManyToMany), expérimenter cascade et suppression orpheline
+Dépendances JPA, Hibernate, Validator, H2, SLF4J et JUnit ajoutées.
+-les etapes:
+
+Configuration Java 1.8 ajoutée dans <properties>.
+
+persistence.xml configuré avec H2 en mémoire et Hibernate.
+
+Les 4 entités JPA ont été créées avec les relations suivantes :
+
+Utilisateur ↔ Reservation : OneToMany / ManyToOne
+
+Salle ↔ Reservation : OneToMany / ManyToOne
+
+Salle ↔ Equipement : ManyToMany
+Les méthodes utilitaires de gestion des relations bidirectionnelles ont été ajoutées.
+
+La classe App contient les tests demandés :
+
+cascade
+
+suppression orpheline
+
+relation ManyToMany
+Note importante
+
+J’ai ajouté aussi org.glassfish:javax.el dans le pom.xml. Cette dépendance est souvent nécessaire pour que hibernate-validator fonctionne correctement en exécution.
+
+Je n’ai pas pu lancer mvn clean compile exec:java ici, car Maven n’est pas installé dans cet environnement.
+-les resultats:
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-23 210336" src="https://github.com/user-attachments/assets/7057164a-6624-48a9-bbbc-0fa72efa5d4c" />
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-23 210353" src="https://github.com/user-attachments/assets/267d0995-c5db-4fa8-8cab-aa9d92f88a04" />
 <img width="1920" height="1080" alt="Capture d&#39;écran 2026-02-23 210402" src="https://github.com/user-attachments/assets/618ef36d-bec5-4506-a8d4-0234a2d7dbf3" />
